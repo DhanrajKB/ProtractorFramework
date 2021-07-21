@@ -10,7 +10,7 @@ describe('demo calculator tests', function() {
     let result = element(by.cssContainingText('.ng-binding','40'));
     expect(result.getText()).toEqual('40')
 
-    browser.sleep(3000);
+    browser.sleep(2000);
   });
   
 });
